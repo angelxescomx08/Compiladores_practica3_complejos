@@ -1,0 +1,4 @@
+compilar 
+
+yacc -d hoc3.y
+gcc symbol.c init.c math.c y.tab.c -lm
